@@ -1,0 +1,8 @@
+
+# some more ls aliases
+alias ll='ls -al'
+alias la='ls -A'
+alias l='ls -CF'
+
+# mumble serveur
+alias murmurd='echo "please run as the serveur user:";echo "su -l serveur -c \"/usr/sbin/murmurd -fg\"";false'
