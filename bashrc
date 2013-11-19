@@ -131,4 +131,7 @@ export VISUAL=vim
 # see https://awesome.naquadah.org/wiki/Problems_with_Java
 export _JAVA_AWT_WM_NONREPARENTING=1;
 
+# Save command history before each prompt
+export PROMPT_COMMAND='history -a'
+
 # }}}1
